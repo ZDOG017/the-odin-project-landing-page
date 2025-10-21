@@ -5,8 +5,11 @@
 }
 
 .wrapper {
-    max-width: 1200px;
+    max-width: 960px;
     margin: 0 auto;
+}
+
+.wrapper.header {
     display: flex;
     justify-content: space-between;
     padding: 16px;
@@ -16,7 +19,7 @@ ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
-    gap: 8px;
+    gap: 32px;
 }
 
 a {
@@ -32,4 +35,34 @@ a {
 .header-logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero-section {
+    background-color: #1f2937;
+    padding: 100px 0;
+}
+
+.container-hero {
+    display: flex;
+}
+
+.left-container h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.left-container p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-container button {
+    background-color: #3882f6;
+    border: none;
+    border-radius: 24px;
+    padding: 7px 20px;
+    color: #f9faf8;
+    font-size: 16px;
+    margin-top: 20px;
 }
